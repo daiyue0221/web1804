@@ -1,0 +1,21 @@
+.banners {width:100%;background: url(../images/team-banner.jpg) no-repeat;background-size: 100% 100%;}
+.banner {width:684px;margin:0 auto;padding-top:163px;padding-bottom:163px;}
+.banner div:first-of-type {justify-content: flex-end;align-items: center;display: flex;}
+.banner div:last-of-type {justify-content: flex-start;align-items: center;display: flex;}
+.banner div:first-of-type span {font-size: 35px;color: #fff;margin-right:16px;}
+.banner div:last-of-type span {font-size: 28px;color: #fff;margin-left:16px;}
+.banner div:first-of-type p {width:285px;color: #fff;border-bottom:1px solid #fff;}
+.banner div:last-of-type p {width:285px;color: #fff;border-bottom:1px solid #fff;}
+.med {display: flex;justify-content: space-between;width:995px;margin:0 auto;}
+/*   map-top */
+.med {padding-top:38px;border-bottom:1px solid #d5d5d5;}
+.med > aside {display: flex;}
+.med > aside div {margin-right:35px;}
+.med > aside span{float:left;height:9px;border-left:2px solid #999;margin-top:5px;}
+.med > aside h3 {font-size: 15px;margin:0 0 3px 7px;float: left;color:#333;}
+.med >aside p{font-size:12px;color:#999;margin-bottom:6px;}
+.med >p {padding:14px 0 6px;color:#333;font-size:14px;}
+.med >p a {color:#666;}
+/*  coffee-m  */
+.coffee-m {display: flex;padding-top:25px;width:995px;margin: 0 auto;padding-bottom:39px;}
+.coffee-m p{font-size: 15px;color: #333;line-height: 30px;text-indent: 2em;margin-left:28px;margin-top:15px;}

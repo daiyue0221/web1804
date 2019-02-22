@@ -1,0 +1,35 @@
+.banners {width:100%;background: url(../images/team-banner.jpg) no-repeat;background-size: 100% 100%;}
+.banner {width:684px;margin:0 auto;padding-top:163px;padding-bottom:163px;}
+.banner div:first-of-type {justify-content: flex-end;align-items: center;display: flex;}
+.banner div:last-of-type {justify-content: flex-start;align-items: center;display: flex;}
+.banner div:first-of-type span {font-size: 35px;color: #fff;margin-right:16px;}
+.banner div:last-of-type span {font-size: 28px;color: #fff;margin-left:16px;}
+.banner div:first-of-type p {width:285px;color: #fff;border-bottom:1px solid #fff;}
+.banner div:last-of-type p {width:285px;color: #fff;border-bottom:1px solid #fff;}
+.med {display: flex;justify-content: space-between;width:995px;margin:0 auto;}
+/*   map-top */
+.med {padding-top:38px;border-bottom:1px solid #d5d5d5;margin-bottom: 41px;}
+.med > aside {display: flex;}
+.med > aside div {margin-right:35px;}
+.med > aside span{float:left;height:9px;border-left:2px solid #999;margin-top:5px;}
+.med > aside h3 {font-size: 15px;margin:0 0 3px 7px;float: left;color:#333}
+.med >aside p{font-size:12px;color:#999;margin-bottom:6px;}
+.med >p {padding:14px 0 6px;color:#333;font-size:14px;}
+.med >p a {color:#666;}
+/* main */
+.main {width:995px;margin:0 auto;padding-bottom:40px;}
+.main dl {display: flex;align-items: center;font-size:12px;color: #666;margin-bottom: 4px;}
+/*.main .dlm {color: #866961;}*/
+.main .main-f{margin-top:15px;}
+.main dl dt {font-size: 18px;}
+/*.main .main-f dt {padding-bottom: 6px;}*/
+.main .main-f dd:first-of-type {width:37px;height:7px;background: url(../images/comptime2.jpg) no-repeat;margin-right:38px;margin-left: 12px;padding-bottom: 6px; margin-top:6px;}
+.main .xian {font-size: 12px;border-bottom:1px solid #f2f2f2;padding-bottom: 6px;width: 868px;    margin-top: 6px;} 
+.main dl .odds {height:54px;border-left:1px solid #d5d5d5;margin-right: 98px;margin-left: 26px;}
+.main .oddss dd{padding-top:10px;}
+.main dl:nth-of-type(4) .odds {height:103px;}
+.main dl:nth-of-type(6) .odds {height:48px;}
+.main dl:nth-of-type(8) .odds {height:125px;}
+.main .oddss .xian2{padding-top:24px;}
+.main dl:hover {color:#866961;}
+.main dl:hover >dd:first-of-type {background-image:url(../images/comptime1.jpg);}

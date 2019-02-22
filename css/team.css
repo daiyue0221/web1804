@@ -1,0 +1,27 @@
+.banners {width:100%;background: url(../images/team-banner.jpg) no-repeat;background-size: 100% 100%;}
+.banner {width:684px;margin:0 auto;padding-top:163px;padding-bottom:163px;}
+.banner div:first-of-type {justify-content: flex-end;align-items: center;display: flex;}
+.banner div:last-of-type {justify-content: flex-start;align-items: center;display: flex;}
+.banner div:first-of-type span {font-size: 35px;color: #fff;margin-right:16px;}
+.banner div:last-of-type span {font-size: 28px;color: #fff;margin-left:16px;}
+.banner div:first-of-type p {width:285px;color: #fff;border-bottom:1px solid #fff;}
+.banner div:last-of-type p {width:285px;color: #fff;border-bottom:1px solid #fff;}
+.med {display: flex;justify-content: space-between;width:995px;margin:0 auto;}
+/*   map-top */
+.med {padding-top:38px;border-bottom:1px solid #d5d5d5;}
+.med > div span{float:left;height:9px;border-left:2px solid #866961;margin-top:5px;}
+.med > div h3 {font-size: 15px;margin:0 0 3px 7px;float: left;}
+.med >div p{font-size:12px;color:#999px;margin-bottom:6px;}
+.med >p {padding:14px 0 6px;color:#333;font-size:14px;}
+.med >p a {color:#666;}
+/*  map */
+.maps,.address {width:995px;margin:0 auto;}
+.maps img {width:100%;display:block;margin-top:22px;}
+.address {display:flex;justify-content: space-around;margin-top: 56px;}
+.address dl {width:237px;display: flex;justify-content: space-between;}
+.address dl .add {width:184px;position: relative;}
+.address dl .add span{height:9px;border-left:2px solid #866961;top:5px;position: absolute;left:0;}
+.address dl .add h4 {font-size:19px;color:#333;margin-left:8px;}
+.address dl .add p {font-size:12px;color:#999;margin:4px 0 31px;}
+.address dl .add dd:first-of-type {font-size:12px;color:#333;}
+.address dl .add dd:last-of-type {font-size:13px;color:#999;margin:12px 0 61px;}

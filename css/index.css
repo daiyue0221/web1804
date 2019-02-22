@@ -1,0 +1,59 @@
+
+/*banner  */
+nav img{width:100%;display: block;border-bottom: 2px solid #fdf1bf;}
+/*   about  us */
+.teas,.threes,.shows ,.maps{width: 100%;background: url(../images/bgmain.jpg) no-repeat;background-size: 100% 100%;}
+.tea,.three,.show,.map {margin:0 auto;width: 1116px;padding:45px 0 96px;text-align: center;}
+.tea > h3,.three > h3 ,.show >h3,.map>h3 {font-size:22px;color:#333;margin-bottom:9px;}
+ .about {width:252px;margin:0 auto;display: flex;justify-content: space-between;align-items: center;margin-bottom: 8px;}
+ .about dl {width:84px;border-bottom:1px solid #999;position: relative;}
+ .about dl dt {position: absolute;bottom:-3px;height:5px;border-left:1px solid #999;}
+ .about dl:first-of-type dt {right: 1px;}
+ .about dl:last-of-type dt {left: 1px;}
+.tea-bot {background: red;margin-top:50px;padding-left:19px;}
+.tea-bot div {float: left;width: 400px;height: 518px;border:1px solid #666;position: relative;margin-right:54px;}
+.tea-bot div img{display: block;position: absolute;right: -24px;top:-15px}
+.tea-bot dl {float: left;font-size:22px;color:#3a3438;text-align: left;}
+.tea-bot dl dd {margin:54px 0 31px;width:36px;border-bottom:1px solid #333;}
+.tea-bot dl p{width:600px;font-size: 12px;line-height: 29px;color:#3a3438;text-indent: 2em;}
+.tea-bot dl p:last-of-type {margin-top: 14px;}
+/*  center  */
+.centert {display: flex;justify-content: center;font-size: 23px;color: #fff;height:120px;background: url(../images/bgthree.jpg) no-repeat;align-items: center;}
+/*  three tea */
+.threebot {display: flex;justify-content: space-between;}
+.threebot dl {width: 327px;margin-top:45px;background:#fff;}
+.threebot dl img {display: block;}
+.threebot dl dt img:last-of-type {position: absolute;left: 50%;top:120%;transform: translateX(-50%) translateY(-50%);}
+.threebot dl h3 {font-size: 23px;margin: 17px auto 8px;color:#666;}
+.threebot dl div {width:32px;border-bottom:1px solid #333;margin:0 auto;}
+.threebot dl dd {font-size: 14px;line-height: 24px;color: #999;margin:11px auto 72px;}
+.threebot dl dt p {width: 327px;height:298px;position: absolute;top:0;background:rgba(0,0,0,0);}
+.threebot dl dt {position: relative;overflow: hidden;}
+.threebot dl:hover dt p{background:rgba(0,0,0,0.6);transition: 1s;}
+.threebot dl:hover dt img:last-of-type{top:50%;transition: 1s;}
+.three {padding-bottom:0;}
+/*  show */
+.shows {background: url(../images/bgbottom.jpg) no-repeat;background-size: 100% 100%;}
+.lastbot {display: flex;justify-content: space-around;margin-top:40px;}
+.lastbot dl {width: 245px;color: #333;text-align: center;border:1px solid #999;box-sizing: border-box;/*height: 243px;*/transition: all 1s;color: #333;}
+.lastbot dl a h3 {font-size: 18px;margin:29px auto 13px;color: #333;}
+.lastbot dl a div {width:28px;border-bottom:1px solid #fff;display:none;margin:0 auto;color: #333;}
+.lastbot dl a dd {font-size:12px;line-height: 24px;color: #333;}
+.lastbot dl:hover a h3 {font-size: 18px;margin:10px auto 9px;color: #fff;}
+.lastbot dl:hover a div{display: block;}
+.lastbot dl:hover a dd {font-size:12px;margin:8px auto 14px;line-height: 24px;color: #fff;}
+.lastbot dl:hover {background: #3b3b3b;}
+.show {padding-bottom: 130px;}
+/*   map */
+.maps {background:none;}
+.mapmain {display: flex;justify-content: space-between;padding-left:24px;margin-top: 38px;}
+.mapmain aside {width:372px;text-align: left;}
+.mapmain aside dl {width:100%;}
+.mapmain aside dl dt {float: left;margin-right: 10px;}
+.mapmain aside dl h4 {font-size: 19px;color:#333;margin-bottom:10px;}
+.mapmain aside dl p {font-size: 12px;color:#999;margin-bottom:12px;}
+.mapmain aside dl dd:first-of-type {font-size: 14px;color:#333;margin-bottom:12px;margin-left: 55px;}
+.mapmain aside dl dd:last-of-type {font-size: 12px;color:#999;margin-bottom:30px;margin-left: 55px;}
+.mapmain aside dl:last-of-type dd:last-of-type {margin-bottom:0;}
+.map {padding-bottom: 50px;}
+
